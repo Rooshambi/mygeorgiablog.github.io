@@ -1,0 +1,203 @@
+body {
+    background-color: #F6DDCC;
+    font-family: Georgia, 'Times New Roman';
+    font-size: large;
+}
+
+header {
+    clear: both;
+    padding: 1px;
+    text-align: center;
+}
+
+h4{
+    color: coral;
+}
+
+p {
+    color: black;
+}
+
+img[src*="peach"]{
+    width: 300px;
+}
+
+
+img[src*="georgia"]{
+    position: absolute;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+img[src*="atl"]{
+    float: left;
+    border-radius: 30%;
+    margin-left: 40px;
+}
+
+img[src*="decatur"]{
+    float: left;
+    width: 550px;
+    border-radius: 30%;
+    padding-left: 20px;
+}
+
+img[src*="contact"] {
+    width: 400px;
+    position:absolute;
+}
+
+img[src*="savannah"]{
+    float: left;
+    width: 600px;
+    border-radius: 30%;
+    padding-left: 20px;
+}
+
+img[src*="magnifying-glass"]{
+    width: 110px;
+    transform: translateY(-80%)
+}
+
+img[src*="stone-mountain"] {
+    width:600px;
+    height: 480px;
+    border-radius: 30%;
+    position: absolute;
+    margin-left: 40px;
+}
+
+
+img[src*="aquarium"] {
+    width:600px;
+    height: 480px;
+    margin-left: 40px;
+    border-radius: 30%;
+    position: absolute;
+}
+
+img[src*="callaway-gardens"]{
+    width: 700px;
+    border-radius: 30%;
+    position: absolute;
+    padding-left: 40px;
+}
+
+  
+  img[src*="people"],
+  img[src*="animals"],
+  img[src*="gallon"],
+  img[src*="region"],
+  img[src*="class"],
+  img[src*="income"],
+  img[src*="calendar"], 
+  img[src*="plant"], 
+  img[src*="butterfly"],
+  img[src*="granite"],
+  img[src*="hiking"]{
+    width: 22px;
+}
+
+
+nav a:hover {
+    background-color: yellow;
+}
+
+.nav {
+    color: black;
+    text-align: center;
+    margin-left: 15px;
+}
+
+nav ol {
+    list-style: none;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: red;
+}
+
+#page-nav { 
+    float: right;
+  }
+  
+#home, #next {
+    display: inline;
+    padding: 0;
+    margin: 0 10px;
+  }
+  
+#home {
+    position: relative;
+  }
+
+#social-media {
+   float: right;
+   transform: translateY(-150%);
+}
+
+#mission {
+text-align: left;
+margin-right: 200px;
+}
+
+
+.additional-info {
+    width: 30%;
+    float: right;
+    padding: 20px 0px 400px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    margin-right: 40px;
+}
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse; 
+    width: 100%; 
+    font-size:12px;
+  }
+  
+  th, td {
+    display: table-cell;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+footer {
+    clear: both;
+    background-color: red;
+    color: white;
+    padding-top: 0px;
+    text-align: center;
+    
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
